@@ -1,0 +1,1 @@
+본인의 gemini api key를 입력하세요!!
