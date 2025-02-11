@@ -37,15 +37,6 @@ class GeminiSummarizer:
 컴포저 에이전트는 사용자에게 실행 권한을 부여하여 안전성을 확보했지만, 코드 이해도가 낮은사용자는 주의가 필요함."""
         self.API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
     
-    # def load_api_key(self):
-    #     try:
-    #         key_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'GEMINI_API_KEY.txt')
-    #         with open(key_file, 'r') as f:
-    #             return f.read().strip()
-    #     except Exception as e:
-    #         messagebox.showerror("오류", "API 키 파일(GEMINI_API_KEY.txt)을 찾을 수 없거나 읽을 수 없습니다.")
-    #         return None
-    
     def load_api_key(self):
         try:
             # PyInstaller 번들 실행 여부 확인
